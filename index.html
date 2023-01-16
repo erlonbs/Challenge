@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Encription and Description</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="/script.js"></script>
+    <header>
+      <div class="logo">
+        <img src="/Logo.png" alt="" />
+      </div>
+
+      <section id="retangulo">
+        <label for="Digite seu texto"></label>
+        <textarea name="textoAux" id="textoAux" cols="10" rows="30"></textarea>
+        <div>
+          <button onclick="copiar()" class="btnCopiar">Copiar</button>  
+        </div>
+      </section>
+
+      <img src="/busca.png" id="busca" alt="buscando imagem" />
+      
+    </header>
+    <main>
+      <textarea
+        class="entradaTexto"
+        name="texto"
+        id="texto"
+        cols="30"
+        rows="10"
+        placeholder="Digite seu texto aqui"
+      ></textarea>
+
+      <section class="botoes">
+        <button onclick="removeImagem(),insereRetangulo(), encriptografa()" class="btnEncriptografar">
+          Encriptografar
+        </button>
+        <button onclick="descriptografa(),removeImagem(),insereRetangulo()" class="btnDescriptografar">Descriptografar</button>
+         <button onclick="recarregar()" class="btnRecarregar">Recarregar</button>
+      
+       
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <p>&copy; Copyright 2023 Erlon Barbosa Sena</p>
+    <div class="redes-sociais">
+      <a href="https://www.linkedin.com/in/erlon-barbosa-sena/" target="_blank"
+        ><img src="/linkedin-2.png" alt="linkedin"
+      /></a>
+      <a href="https://github.com/erlonbs" target="_blank"
+        ><img src="/logotipo-do-github.png" alt="imagem github"
+      /></a>
+    </div>
+  </footer>
+</html>
