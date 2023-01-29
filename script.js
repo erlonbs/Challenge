@@ -55,5 +55,6 @@ function copiar(){
 
 function recarregar(){
   location.reload();
+  
 }
 
