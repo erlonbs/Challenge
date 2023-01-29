@@ -8,10 +8,24 @@ body {
 
 }
 
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
 #texto {
   width: 680px;
   height: 288px;
-  margin-top: 168px;
+  margin-top: 198px;
   margin-left: 240px;
 
 }
@@ -24,6 +38,14 @@ body {
   display: inline;
   
   
+}
+
+.informativo{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 142px;
+  margin-left: 240px;
+  display: block;
 }
 
 .botoes {
@@ -78,19 +100,6 @@ body {
   color: #0A3871;
 }
 
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 120px;
-  height: 48px;
-  left: 40px;
-  top: 40px;
-}
-
 #retangulo {
 position:absolute;
 width: 390px;
@@ -112,7 +121,7 @@ float: right;
 }
 
 footer  {
-  margin-top: 290px;
+  margin-top: 190px;
   text-align: center;
   
  
@@ -204,6 +213,13 @@ footer  {
 
 }
 
+.informativo {
+  font-size: 12px;
+  margin-top: 25px;
+  margin-left: 120px;
+ 
+}
+
 .entradaTexto {
   font-size: 20px;
 }
@@ -277,8 +293,8 @@ footer {
   
 
 .logo img {
-  width: 60px;
-  height: 24px;
+  width: 90px;
+  height: 34px;
 
 }
 
@@ -287,7 +303,7 @@ footer {
     width: 588px;
     height: 220px;
     left: 100px;
-    top: 530px;
+    top: 550px;
     background: #ffffff;
     display: none;
     border-radius: 16px;
@@ -304,6 +320,7 @@ footer {
   margin-left: 450px;
 
 }
+
 
 #texto {
   width: 588px;
@@ -327,17 +344,30 @@ footer {
 
 .botoes {
  display: flex;
-  width: 280px;
+  width: 580px;
   height: 67px;
-  margin-left: 200px;
-  margin-top: 10px;
- 
+  margin-left: 140px;
+  margin-top: 50px;
+  
  
 }
 
+.botoes label {
+  display: block;
+  margin-top: 2px;
+}
+
+.informativo {
+  font-weight: 400px;
+  margin-left: 160px;
+  font-size: 15px;
+
+}
+
+
 .btnDescriptografar, .btnEncriptografar, .btnRecarregar {
  
-  width: 122px;
+  width: 152px;
   height: 67px;
   border: 1px solid #0A3871;
   border-radius: 24px;
@@ -360,7 +390,7 @@ footer {
 }
 
 footer {
-  margin-top: 540px;
+  margin-top: 450px;
   font-size: 15px;
 
 }

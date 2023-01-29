@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge Encription and Description</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="/script.js"></script>
   </head>
   <body>
-    <script src="/script.js"></script>
     <header>
       <div class="logo">
         <img src="images/Logo.png" alt="" />
       </div>
-    
+
       <section id="retangulo">
         <label for="Digite seu texto"></label>
         <textarea name="textoAux" id="textoAux" cols="10" rows="30"></textarea>
         <div class="copiar">
-          <button onclick="copiar()" class="btnCopiar">Copiar</button>  
+          <button onclick="copiar()" class="btnCopiar">Copiar</button>
         </div>
       </section>
 
       <img src="images/busca.jpeg" id="busca" alt="buscando imagem" />
     </header>
-    
+
     <main>
-     
-        <textarea
+      <textarea
         class="entradaTexto"
         name="texto"
         id="texto"
@@ -36,17 +34,32 @@
         rows="10"
         placeholder="Digite seu texto aqui"
       ></textarea>
-
+      
+      
+    
       <section class="botoes">
-        <button onclick="removeImagem(),insereRetangulo(), encriptografa()" class="btnEncriptografar">
+        
+       
+        <br>
+        <button
+          onclick="removeImagem(),insereRetangulo(), encriptografa()"
+          class="btnEncriptografar"
+        >
           Encriptografar
         </button>
-        <button onclick="descriptografa(),removeImagem(),insereRetangulo()" class="btnDescriptografar">Descriptografar</button>
-         <button onclick="recarregar()" class="btnRecarregar">Recarregar</button>
-      
        
+        <button
+          onclick="descriptografa(),removeImagem(),insereRetangulo()"
+          class="btnDescriptografar"
+        >
+          Descriptografar
+        </button>
+        <button onclick="recarregar()" class="btnRecarregar">Recarregar</button>
       </section>
+     
+     
     </main>
+    <label class="informativo" for="texto">! Apenas letras minúsculas e sem acento</label>
   </body>
 
   <footer>
