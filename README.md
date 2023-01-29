@@ -1,11 +1,11 @@
 <h1 align=""center>
-  <img src="../Challenge/images/ENCRyPT.gif">
+  <img src="../Challenge/images/ENCRYPT.gif">
 </h1>
 
 # Indice
 
 - [Sobre](#-sobre)
-- [Tecnologias Utilizadas](#-tecnologias-ultilizadas) 
+- [Tecnologias Utilizadas](#-tecnologias-ultilizadas)
 - [Como acessar o projeto](#-como-acessar-o-projeto)
 
 ## 📝Sobre
@@ -24,7 +24,7 @@ O projeto **Encrypt** foi criado no programa **ONE NEXT EDUCATION**, uma parceri
 
 ## 📂 Como acessar o projeto
 
-  O projeto pode baixar o código no Github
+O projeto pode baixar o código no Github
 
 ```bash
 
