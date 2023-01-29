@@ -1,12 +1,12 @@
 <h1 align=""center>
-  <img src="../Challenge/images/ENCRYPT.gif">
+  <img src="../Challenge/images/encrypt.gif">
 </h1>
 
 # Indice
 
-- [Sobre](#-sobre)
-- [Tecnologias Utilizadas](#-tecnologias-ultilizadas)
-- [Como acessar o projeto](#-como-acessar-o-projeto)
+- [Sobre](#-Sobre)
+- [Tecnologias Utilizadas](#-Tecnologias-Ultilizadas)
+- [Como acessar o projeto](#-Como-acessar-o-projeto)
 
 ## 📝Sobre
 
@@ -14,7 +14,7 @@ O projeto **Encrypt** foi criado no programa **ONE NEXT EDUCATION**, uma parceri
 
 ---
 
-## ⚙Tecnologias Utilizadas:
+## ⚙ Tecnologias Utilizadas:
 
 - [HTML5](https://www.alura.com.br/cursos-online-front-end/html-css)
 - [CSS3](https://www.alura.com.br/formacao-html-e-css)
